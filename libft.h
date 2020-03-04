@@ -6,7 +6,7 @@
 /*   By: pmaul <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/20 19:57:55 by pmaul             #+#    #+#             */
-/*   Updated: 2019/09/24 13:42:56 by pmaul            ###   ########.fr       */
+/*   Updated: 2020/03/04 20:35:02 by pmaul            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,5 +86,7 @@ int					ft_sqrt(int nbr);
 void				ft_swap(int *a, int *b);
 int					ft_iswhitespace(char c);
 int					ft_fact(int x);
+char				*ft_strsearch(const char *str, int c);
+int					ft_lstsize(t_list *lst);
 
 #endif
