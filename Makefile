@@ -6,7 +6,7 @@
 #    By: pmaul <marvin@42.fr>                       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/09/22 19:16:10 by pmaul             #+#    #+#              #
-#    Updated: 2020/03/04 20:34:08 by pmaul            ###   ########.fr        #
+#    Updated: 2020/03/06 20:42:02 by pmaul            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,6 +25,7 @@ SRC = ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c \
 	  ft_strnstr.c ft_strrchr.c ft_strsplit.c ft_strstr.c ft_strsub.c \
 	  ft_strtrim.c ft_tolower.c ft_toupper.c ft_countwords.c ft_fact.c \
 	  ft_iswhitespace.c ft_swap.c ft_sqrt.c ft_strsearch.c ft_lstsize.c \
+	  ft_strlcpy.c ft_calloc.c ft_substr.c ft_split.c ft_lstadd_front.c \
 
 OBJ = ft_atoi.o ft_bzero.o ft_isalnum.o ft_isalpha.o ft_isascii.o \
 	  ft_isdigit.o ft_isprint.o ft_itoa.o ft_lstadd.o ft_lstdel.o \
@@ -39,6 +40,7 @@ OBJ = ft_atoi.o ft_bzero.o ft_isalnum.o ft_isalpha.o ft_isascii.o \
 	  ft_strnstr.o ft_strrchr.o ft_strsplit.o ft_strstr.o ft_strsub.o \
 	  ft_strtrim.o ft_tolower.o ft_toupper.o ft_countwords.o ft_fact.o \
 	  ft_iswhitespace.o ft_swap.o ft_sqrt.o ft_strsearch.o ft_lstsize.o \
+	  ft_strlcpy.o ft_calloc.o ft_substr.o ft_split.o ft_lstadd_front.o \
 
 INCLUDES=./
 

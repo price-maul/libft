@@ -6,13 +6,12 @@
 /*   By: pmaul <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/20 19:57:55 by pmaul             #+#    #+#             */
-/*   Updated: 2020/03/04 20:35:02 by pmaul            ###   ########.fr       */
+/*   Updated: 2020/03/06 22:57:45 by pmaul            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
-
 # include <stdlib.h>
 # include <unistd.h>
 
@@ -88,5 +87,10 @@ int					ft_iswhitespace(char c);
 int					ft_fact(int x);
 char				*ft_strsearch(const char *str, int c);
 int					ft_lstsize(t_list *lst);
+size_t				ft_strlcpy(char *dst, const char *src, size_t dstsize);
+void				*ft_calloc(size_t count, size_t size);
+char				*ft_substr(char const *s, unsigned int start, size_t len);
+char				**ft_split(char const *s, char c);
+void				ft_lstadd_front(t_list **alst, t_list *new);
 
 #endif
