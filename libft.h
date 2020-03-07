@@ -6,7 +6,7 @@
 /*   By: pmaul <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/20 19:57:55 by pmaul             #+#    #+#             */
-/*   Updated: 2020/03/06 22:57:45 by pmaul            ###   ########.fr       */
+/*   Updated: 2020/03/07 18:41:31 by pmaul            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 # define LIBFT_H
 # include <stdlib.h>
 # include <unistd.h>
+# define BUFF_SIZE 32
+# include <fcntl.h>
 
 typedef struct		s_list
 {
@@ -92,5 +94,7 @@ void				*ft_calloc(size_t count, size_t size);
 char				*ft_substr(char const *s, unsigned int start, size_t len);
 char				**ft_split(char const *s, char c);
 void				ft_lstadd_front(t_list **alst, t_list *new);
+int					get_next_line(const int fd, char **line);
+int					tabcmp(int *tab, int *arr, int n);
 
 #endif
